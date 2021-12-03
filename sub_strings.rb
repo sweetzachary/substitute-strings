@@ -1,5 +1,5 @@
 def count_word(s, word)
-    (s.length - s.gsub(word, '').length)/word.length
+    s.scan(word).length
 end
 
 def sub_strings(string, dict)
